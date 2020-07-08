@@ -1,7 +1,7 @@
 import React from "react"
 import { Link} from 'gatsby'
 export default function Home() {
-  return <div style={{ backgroundColor: '#0F151C', color: '#ff0a78', fontSize:'72px'}}>
+  return <div style={{  color: '#ff0a78', fontSize:'72px'}}>
     <Link to="/about/">About</Link>
     <h1>Paipo Tang</h1>
     <p>Tech Blog</p>
