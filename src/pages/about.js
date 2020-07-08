@@ -1,12 +1,12 @@
 import React from "react"
-import Container from '../components/container'
+import Layout from '../components/layout';
 export default function About() {
   return (
-    <Container>
-      <div style={{ color: `teal` }}>
-        <h1>About Gatsby</h1>
-        <p>Such wow. Very React.</p>
-      </div>
-    </Container>
+    <Layout>
+      <h1>About me</h1>
+      <p>
+        I’m good enough, I’m smart enough, and gosh darn it, people like me!
+      </p>
+    </Layout>
   )
 }
