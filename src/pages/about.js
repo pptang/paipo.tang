@@ -1,12 +1,21 @@
 import React from "react"
-import Layout from '../components/layout';
+import styled from "@emotion/styled"
+import Layout from "../components/layout"
+import avatarSrc from "../images/avatar.jpg"
+
+const Avatar = styled.img`
+  border-radius: 100%;
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+`
+
 export default function About() {
   return (
     <Layout>
       <h1>About me</h1>
-      <p>
-        I’m good enough, I’m smart enough, and gosh darn it, people like me!
-      </p>
+      <Avatar src={avatarSrc} />
+      <p>A Frontend Engineer who does sports and philosophy</p>
     </Layout>
   )
 }
